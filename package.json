@@ -1,0 +1,21 @@
+{
+  "name": "{{name}}",
+  "version": "0.1.0",
+  "description": "{{description}}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "{{author}}",
+  "license": "ISC",
+  "bin": {
+    "coder": "index.js"
+  },
+  "dependencies": {
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.4",
+    "inquirer": "^7.1.0"
+  }
+}
